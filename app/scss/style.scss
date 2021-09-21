@@ -4,6 +4,297 @@
 @import 'global';
 @import 'libs';
 
+
+
+.menu {
+    background-color: #383848;
+
+    &__link {
+        width: 85px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.5s, color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            background-color: $ac;
+        }
+
+        &:active {
+            color: $active;
+        }
+
+        &--active {
+            background-color: #3f4253;
+            border-left: 2px solid #91a3cc;
+        }
+    }
+}
+
+
+.header {
+
+    .logo {
+
+        color: #6c83b3;
+        transition: opacity 0.5s,
+            color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        &:active {
+            color: $active;
+        }
+    }
+
+    &__wraper {
+        display: flex;
+    }
+
+    &__slidbar {
+        background-color: #383848;
+        max-width: 75px;
+    }
+
+    &__bg {
+        /*!*/
+        width: 75px;
+        height: 75px;
+        background-color: #6c83b3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 105px;
+
+    }
+
+    &__logo-link {
+        background-color: white;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+.content {
+    width: 100%;
+    background-color: #323545;
+
+    &__form {
+        padding: 13px 0px 13px 30px;
+        background-color: #363948;
+        width: 100%;
+        height: 75px;
+        /*!*/
+    }
+
+    &__input {
+        background-color: #4a4b59;
+        border: none;
+        padding: 15px 0px 15px 30px;
+
+
+    }
+
+    &__link {
+        transition: background-color 0.5s, color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            background-color: $ac;
+        }
+
+        &:active {
+            color: $active;
+        }
+
+        &--button {
+            background-color: #6c83b4;
+            padding: 20px 45px;
+            border-radius: 5px;
+        }
+    }
+
+    &__wraper {
+        padding: 30px 0 30px;
+        display: flex;
+    }
+
+    &__info {
+        background-color: #383848;
+        padding: 30px 30px 65px 45px;
+        color: white;
+    }
+
+    &__newest {
+        padding: 15px 20px;
+        background-color: #494a57;
+        text-transform: uppercase;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        display: inline-block;
+        font-size: 12px;
+        transition: background-color 0.5s, color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            background-color: $ac;
+        }
+
+        &:active {
+            color: $active;
+        }
+
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    &__icons {
+        margin-bottom: 30px;
+        display: flex;
+
+    }
+
+    &__text {
+        color: #9d9ead;
+        margin-bottom: 20px;
+        max-width: 270px;
+    }
+
+    &__item {
+        border-radius: 50%;
+        background-color: #4a4b59;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+
+
+    &__icon {
+        transition: opacity 0.5s,
+            color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        &:active {
+            color: $active;
+        }
+    }
+
+    &__img {
+        width: 750px;
+        height: 430px;
+        transition: opacity 0.5s,
+            color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        &:active {
+            color: $active;
+        }
+
+
+    }
+
+    &__svg {}
+
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__price {
+        margin-right: 35px;
+    }
+}
+
+.content-game {
+    display: flex;
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__img {
+        width: 165px;
+        height: 210px;
+        margin-bottom: 20px;
+        transition: opacity 0.5s,
+            color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        &:active {
+            color: $active;
+        }
+
+    }
+
+    &__title {
+        color: white;
+        margin-bottom: 10px;
+
+    }
+
+    &__text {
+        color: #9fa3af;
+    }
+}
+
+/*#6c83b3*/
+
 /*медия всегда должны быть в низу */
 
 /*.video {

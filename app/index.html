@@ -12,20 +12,193 @@
 <body>
 
     <header class="header">
-        <nav class="menuecho " # wp-game">> README.md">
-            <div class="menu__wraper">
-                <a class="menu__logo-link" href="#">
-                    <img class="menu__logo logo" src="images/logo.png" alt="logo">
-                </a>
-                <form class="header__form">
+        <div class="header__wraper">
+            <div class="header__slidbar">
+                <div class="header__bg">
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo logo" src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <nav class="menu">
+                    <ul class="menu__items">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--active" href="#">
+                                <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <form class="content__form">
                     <label class="sr-only" for="email">
                         Enter your email
                     </label>
-                    <input class="header__input" id="email-input" type="email" name="email"
+                    <input class="content__input" id="email-input" type="email" name="email"
                         placeholder="Search anything" required
                         oninvalid="this.setCustomValidity('fill in this field!')">
                 </form>
+                <div class="container">
+                    <div class="content__wraper">
+                        <a class="content__link-img" href="#"><!--!-->
+                            <img class="content__img" src="images/сyberpunk.jpg" alt="сyberpunk">
+                        </a>
+                        <div class="content__info">
+                            <a class="content__newest" href="#">newest</a>
+                            <h2 class="content__title">
+                                Cyberpunk 077
+                            </h2>
+                            <div class="content__text">
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni pariatur vero ullam,
+                                    voluptas ea praesentium facilis
+                                </p>
+                            </div>
+                            <ul class="content__icons">
+                                <li class="content__item">
+                                    <a class="content__icon" href="#">
+                                        <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="content__item">
+                                    <a class="content__icon" href="#">
+                                        <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="content__item">
+                                    <a class="content__icon" href="#">
+                                        <svg class="menu__svg" width="15" height="15" viewBox="0 0 75 88" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#91a3cc" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="content__inner">
+                                <div class="content__price">
+                                    <span>$</span>
+                                    59.99
+                                </div>
+                                <a class="content__link content__link--button" href="#">Pre order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="content-game">
+                        <li class="content-game__item">
+                            <a class="content-game__link" href="#">
+                                <img class="content-game__img" src="images/content-game/1.jpg" alt="бателфилд"></a>
+                            <a class="content-game__link" href="#">
+                                <h3 class="content-game__title">бателфилд</h3>
+                            </a>
+                            <div class="content-game__text">
+                                <p>action, adventure</p>
+                            </div>
+                        </li>
+
+                        <li class="content-game__item">
+                            <a class="content-game__link" href="#">
+                                <img class="content-game__img" src="images/content-game/2.jpg" alt="бателфилд"></a>
+                            <a class="content-game__link" href="#">
+                                <h3 class="content-game__title">бателфилд</h3>
+                            </a>
+                            <div class="content-game__text">
+                                <p>action, adventure</p>
+                            </div>
+                        </li>
+
+                        <li class="content-game__item">
+                            <a class="content-game__link" href="#">
+                                <img class="content-game__img" src="images/content-game/3.jpg" alt="бателфилд"></a>
+                            <a class="content-game__link" href="#">
+                                <h3 class="content-game__title">бателфилд</h3>
+                            </a>
+                            <div class="content-game__text">
+                                <p>action, adventure</p>
+                            </div>
+                        </li>
+
+
+                        <li class="content-game__item">
+                            <a class="content-game__link" href="#">
+                                <img class="content-game__img" src="images/content-game/4.jpg" alt="бателфилд"></a>
+                            <a class="content-game__link" href="#">
+                                <h3 class="content-game__title">бателфилд</h3>
+                            </a>
+                            <div class="content-game__text">
+                                <p>action, adventure</p>
+                            </div>
+                        </li>
+
+                        <li class="content-game__item">
+                            <a class="content-game__link" href="#">
+                                <img class="content-game__img" src="images/content-game/5.jpg" alt="бателфилд"></a>
+                            <a class="content-game__link" href="#">
+                                <h3 class="content-game__title">бателфилд</h3>
+                            </a>
+                            <div class="content-game__text">
+                                <p>action, adventure</p>
+                            </div>
+                        </li>
+
+                        <li class="content-game__item">
+                            <a class="content-game__link" href="#">
+                                <img class="content-game__img" src="images/content-game/6.jpg" alt="бателфилд"></a>
+                            <a class="content-game__link" href="#">
+                                <h3 class="content-game__title">бателфилд</h3>
+                            </a>
+                            <div class="content-game__text">
+                                <p>action, adventure</p>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
             </div>
+
+        </div>
         </nav>
     </header>
 
